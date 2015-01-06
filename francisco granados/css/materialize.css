@@ -6773,7 +6773,7 @@ ul.tabs li.tab {
   }
 }
 ul.tabs li.tab a {
-  color: #ee6e73;
+  color: #29b6f6 ;
   display: block;
   width: 100%;
   height: 100%;
@@ -6784,13 +6784,13 @@ ul.tabs li.tab a {
   transition: color 0.28s ease;
 }
 ul.tabs li.tab a:hover {
-  color: #f8c1c3;
+  color: #b3e5fc;
 }
 ul.tabs .indicator {
   position: absolute;
   bottom: 0;
   height: 2px;
-  background-color: #ee6e73;
+  background-color: #29b6f6;
 }
 
 ul.tabs li.tab {
