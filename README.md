@@ -1,4 +1,7 @@
-mywebsite
+Materialize CSS Website
 =========
+My website currently hosted as a static website using Amazons web service S3 and route 53.
 
-current website
+
+Check out [Materiaizecss](http://materializecss.com/)
+
