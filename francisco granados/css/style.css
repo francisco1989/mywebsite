@@ -24,3 +24,64 @@ width:100%;
 ul.tabs li.tab a:hover {
   color: #b3e5fc;
 }
+.error
+{
+	background:#000;
+	width:60%;
+	height:250px;
+	border-top:solid grey 20px;
+	border-left: solid grey 5px;
+	border-right: solid grey 5px;
+}
+.error-left
+{
+	margin-top:15%;
+	padding: 10px;
+}
+.white
+{
+	color:#fff;
+}
+.center
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top:100px;
+}
+.typed-cursor
+{
+	display:none;
+}
+#typed:after
+{
+ visibility: visible;
+  content: '';
+  background-color: #d4f8e3;
+  display: inline-block;
+  position: relative;
+  width: 0.5em;
+  height: 1em;
+  top: 5px;
+  margin-left: 0;
+  -moz-box-shadow: -2px 0 0px rgba(0, 0, 225, 0.4), -1px 0 3px rgba(103, 171, 236, 0.6), 1px 0 4px rgba(69, 112, 204, 0.5);
+  -webkit-box-shadow: -2px 0 0px rgba(0, 0, 225, 0.4), -1px 0 3px rgba(103, 171, 236, 0.6), 1px 0 4px rgba(69, 112, 204, 0.5);
+  box-shadow: -2px 0 0px rgba(0, 0, 225, 0.4), -1px 0 3px rgba(103, 171, 236, 0.6), 1px 0 4px rgba(69, 112, 204, 0.5);
+  -moz-animation: flicker 0.1s steps(2, start) infinite, ready 1s steps(2, start) 25s infinite;
+  -webkit-animation: flicker 0.1s steps(2, start) infinite, ready 1s steps(2, start) 25s infinite;
+  animation: flicker 0.1s steps(2, start) infinite, ready 1s steps(2, start) 25s infinite;
+  }
+  
+  .back-color
+  {
+  
+background: #cb60b3; /* Old browsers */
+background: -moz-linear-gradient(top,  #cb60b3 7%, #ad1283 52%, #de47ac 88%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(7%,#cb60b3), color-stop(52%,#ad1283), color-stop(88%,#de47ac)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #cb60b3 7%,#ad1283 52%,#de47ac 88%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #cb60b3 7%,#ad1283 52%,#de47ac 88%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #cb60b3 7%,#ad1283 52%,#de47ac 88%); /* IE10+ */
+background: linear-gradient(to bottom,  #cb60b3 7%,#ad1283 52%,#de47ac 88%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cb60b3', endColorstr='#de47ac',GradientType=0 ); /* IE6-9 */
+
+ }
