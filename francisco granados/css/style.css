@@ -85,3 +85,9 @@ background: linear-gradient(to bottom,  #cb60b3 7%,#ad1283 52%,#de47ac 88%); /* 
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cb60b3', endColorstr='#de47ac',GradientType=0 ); /* IE6-9 */
 
  }
+ 
+ .display-inline-li{
+ display: inline;
+list-style-type: none;
+padding-right: 20px;
+}
