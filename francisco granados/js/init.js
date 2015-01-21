@@ -11,7 +11,6 @@
 
   ga('create', 'UA-58775824-1', 'auto');
   ga('send', 'pageview');
-
   
   }); // end of document ready
 })(jQuery); // end of jQuery name space
