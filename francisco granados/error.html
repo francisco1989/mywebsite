@@ -6,6 +6,8 @@
     <!-- Get jQuery -->
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script src="js/typed.js" type="text/javascript"></script>
+	<script src="js/materialize.min.js"></script>
+	<script src="js/init.js"></script>
     <script>
     $(function(){
 
@@ -34,22 +36,18 @@
     </script>
     <link href="css/main.css" rel="stylesheet"/>
 	<link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+	
+  <link href="css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
-<body class="error-center back-color">
-
-    <div class= "error">
-        <div class="white error-left">
-			<span>Francisco@Franciscos-pc:~$ cd awesome-site</span><br/>
-			<span>Francisco@Franciscos-pc:~$ "file or directory not found"</span><br/>
-			<span>Francisco@Franciscos-pc:~$ mkdir awesome-site</span><br/>
-			<span>Francisco@Franciscos-pc:~$</span>
-            <span id="typed" style="white-space:pre;"></span>
-      <br>
-	<span><a class="white-text"  href="index.html">Francisco@Franciscos-pc:~$ cd ../<a/></span>
+<body>
+	<div id="modal1" class="modal white-text error">
+				<span>Francisco@Franciscos-pc:~$ cd awesome-site</span><br/>
+				<span>Francisco@Franciscos-pc:~$ "file or directory not found"</span><br/>
+				<span>Francisco@Franciscos-pc:~$ mkdir awesome-site</span><br/>
+				<span>Francisco@Franciscos-pc:~$</span>
+				<span id="typed" style="white-space:pre;"></span>
+		  <br>
+		<span><a class="green-text"  href="index.html">Francisco@Franciscos-pc:~$ cd ../<a/></span>
 	</div>
-
-
-    </div>
-
 </body>
 </html>

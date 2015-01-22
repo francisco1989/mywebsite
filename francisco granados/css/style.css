@@ -24,15 +24,19 @@ width:100%;
 ul.tabs li.tab a:hover {
   color: #b3e5fc;
 }
+
+
 .error
 {
-	background:#000;
+	background:black !important;
 	width:60%;
-	height:250px;
-	border-top:solid grey 20px;
-	border-left: solid grey 5px;
-	border-right: solid grey 5px;
+	border-top:solid #A8A8A8  20px;
+	border-left: solid #A8A8A8 5px;
+	border-right: solid #A8A8A8 5px;
+	padding-bottom: 2%;
+	top:20% !important;
 }
+/*
 .error-left
 {
 	margin-top:15%;
@@ -49,6 +53,7 @@ ul.tabs li.tab a:hover {
   align-items: center;
   margin-top:100px;
 }
+*/
 .typed-cursor
 {
 	display:none;
