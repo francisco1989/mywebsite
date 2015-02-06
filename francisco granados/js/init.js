@@ -3,6 +3,7 @@
 
     $('.button-collapse').sideNav();
 	$('ul.tabs').tabs();
+
 	if ($('#modal1').length){
 
 		$('#modal1').openModal({
