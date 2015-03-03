@@ -25,7 +25,7 @@
   </nav>
   <div class="section no-pad-bot" id="index-banner">
     <div class="container">
-      <h1 class="header center orange-text">Welcome</h1>
+      <h1 id="typed" class="header center orange-text">&nbsp;</h1>
       <div class="row center">
         <h5 class="header col s12 light">"If debugging is the process of removing software bugs, then programming must be the process of putting them in" -Edsger Dijkstra</h5>
       </div>
@@ -34,9 +34,35 @@
 
 
   <div class="container">	
-	 <div class="video-container">
-		<iframe width="853" height="480" src="https://www.youtube.com/embed/26U_seo0a1g" frameborder="0" allowfullscreen></iframe>
+<div class="section">
+
+      <!--   Icon Section   -->
+      <div class="row">
+        <div class="col s12 m6">
+          <div class="icon-block">
+            <h2 class="center light-blue-text"><i class="mdi-hardware-desktop-windows"></i></h2>
+            <h5 class="center">Software Development</h5>
+
+            <p class="dark">In my six semesters at Conestoga College i learned various programming languages aside from learning c#, c++ and c there was a great emphasis on object oriented methodologies the program also emphasized project planning from both traditional and agile perspectives.</p>
+          </div>
+        </div>
+
+        <div class="col s12 m6">
+          <div class="icon-block">
+            <h2 class="center light-blue-text"><i class="mdi-social-person"></i></h2>
+            <h5 class="center">Brief Bio</h5>
+
+            <p class="dark">My name is Francisco Granados, I graduated from Conestoga College in April 2014, in my first position as an Intern Web Developer I helped integrate small features into their existing web application. As a Junior Web Developer for Codesyne Inc my tasks included designing, implementing and testing larger features for their flagship module blocks framework.</p>
+          </div>
+        </div>
       </div>
+
+    </div>
+    <br><br>
+
+    <div class="section">
+
+    </div>
         
   </div>
 
@@ -66,7 +92,35 @@
 
   <!--  Scripts-->
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/typed.js" type="text/javascript"></script>
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
+  <script>
+    $(function(){
+
+        $("#typed").typed({
+            strings: ["Welcome","Bienvenue","Bienvenida","Huān yíng","Exspectata"],
+            typeSpeed: 30,
+            backDelay: 2000,
+			cursorChar: "|",
+            loop: true,
+            contentType: 'html', // or text
+            // defaults to false for infinite loop
+            loopCount: false,
+            callback: function(){ foo(); },
+            resetCallback: function() { newTyped(); }
+        });
+
+        $(".reset").click(function(){
+            $("#typed").typed('reset');
+        });
+
+    });
+
+    function newTyped(){ /* A new typed object */ }
+
+    function foo(){ console.log("Callback"); }
+
+    </script>
   </body>
 </html>
